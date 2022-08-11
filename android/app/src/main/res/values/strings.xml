@@ -4,6 +4,9 @@
     <string name="title_activity_main">google/google</string>
     <string name="package_name">io.ionic.starter</string>
     <string name="custom_url_scheme">io.ionic.starter</string>
-    <string name="fb_app_id">5202404563209500</string>
-    <string name="fb_app_name">test</string>
+    <!--<string name="fb_app_id">5202404563209500</string>-->
+    <string name="fb_app_name">android</string>
+    <string name="fb_app_id">384866043728358</string>
+    <string name="server_client_id">183895908450-ift0mad5ep3uakkhmq9c91m481s7af8f.apps.googleusercontent.com</string>
 </resources>
+

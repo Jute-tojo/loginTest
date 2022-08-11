@@ -27,8 +27,11 @@
     "@capacitor/haptics": "4.0.1",
     "@capacitor/keyboard": "4.0.1",
     "@capacitor/status-bar": "4.0.1",
+    "@ionic-native/core": "^5.36.0",
+    "@ionic-native/google-plus": "^5.36.0",
     "@ionic/angular": "^6.1.9",
     "cordova-plugin-facebook-connect": "^3.2.0",
+    "cordova-plugin-googleplus": "^8.5.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
@@ -66,5 +69,12 @@
     "ts-node": "~8.3.0",
     "typescript": "~4.7.3"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-googleplus": {
+        "REVERSED_CLIENT_ID": "101663975936mbjc0p8gls8bn0nige1k4rlahu0952m0.apps.googleusercontent.com"
+      }
+    }
+  }
 }
