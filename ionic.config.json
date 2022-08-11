@@ -1,0 +1,8 @@
+{
+  "name": "google/google",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
